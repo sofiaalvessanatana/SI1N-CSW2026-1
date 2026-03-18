@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> Principais Formatações</h1>
+    <h2> Negrito/ Destaque</h2>
+    <p> Na frase temos uma <strong>parte do texto em negrito</strong> usando a tag B (não semântica)</p>
+    <p> Na frase temos uma <strong>parte do texto em negrito</strong> usando a tag strong (com semântica)</p>
+
+    <h2> Itático/Ênfase</h2>
+    <p> Nesta frase vaos entrar com uma palvra em <em>itálico</em> usando a tag i (não semântica)</p>
+    <p> Nesta frase vaos entrar com uma palvra em <em>itálico</em> usando a tag EM (com semântica)</p>
+
+    <h2> Texto Marcador</h2>
+    <p> aqui vamos usar um texto com destaque <mark style="background-color:green;"> de marcador de texto</mark> usando
+        mark</p>
+    <p> aqui vamos usar um texto com destaque <mark style="background-color: yellow;"> de marcador de texto</mark>
+        usando mark</p>
+
+    <h2> Texto grande e pequeno</h2>
+    <p>estamos trabalhando aqui com um <big> texto grande </big> e um <small> texto pequeno</small> nesta frase</p>
+
+    <h2> Texto deletado</h2>
+    <p> Neste paragrado vamos trabalhar com um texto <striker> que foi excluido</striker> e um frase (froma semântica)
+    </p>
+
+    <h2> Texto inserido</h2>
+    <p> Nesta frase vamos demonstrar como <ins>detectar um texto inserido</ins> na frase de forma semântica</p>
+    <p> Nesta frase vamos demonstrar como <u>detectar um texto inserido</u> na frase de forma não semântica</p>
+
+    <h2> Texto sobrescrito</h2>
+    <p> vamos demosntrar uma formula de equação do segundo grau ax<sup>2</sup>+ bx +c usando a tag sup </p>
+
+
+
+
+
+    <p> inserido o comando <code> <document class="getElemntById"></document>('editcodigo')</code> que é um comndo java
+        script</p>
+
+    <pre> <code> import math
+
+# Coeficientes
+a = float(input("Digite o valor de a: "))
+b = float(input("Digite o valor de b: "))
+c = float(input("Digite o valor de c: "))
+
+# Calculando o discriminante (delta)
+delta = b**2 - 4*a*c
+
+if a == 0:
+    print("Isso não é uma equação de segundo grau.")
+else:
+    if delta > 0:
+        x1 = (-b + math.sqrt(delta)) / (2*a)
+        x2 = (-b - math.sqrt(delta)) / (2*a)
+        print(f"Duas raízes reais: x1 = {x1} e x2 = {x2}")
+    elif delta == 0:
+        x = -b / (2*a)
+        print(f"Uma raiz real: x = {x}")
+    else:
+        real = -b / (2*a)
+        imag = math.sqrt(-delta) / (2*a)
+        print(f"Raízes complexas: {real} + {imag}i e {real} - {imag}i")</code> </pre>
+
+
+<h2> Texto subescrito</h2>
+<p> vamos demonstrar o texto subescrityo com a formula da agua H<sub>2</sub>O</p>
+
+</body>
+
+</html>
