@@ -1,66 +1,118 @@
-.container {
-    display: flex;
-    background-color: antiquewhite;
-    justify-content: space-around;
-}
-
-.container2 {
-  display: flex;
-  justify-content: space-between;
-}
-
-.item {
-  flex-grow: 1;
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
   padding: 20px;
-  text-align: center;
-  transition: 0.3s;
-
 }
 
-.i1 { background: lightcoral; }
-.i2 { background: lightblue; }
-.i3 { background: lightgreen; }
-
-
-.item:hover {
-  border-bottom: 4px solid black;
+h2{
+  margin-top: 40px;
+  color: #333;
 }
 
-.container3 {
+/* =========================
+   EXERCÍCIO 1
+========================= */
+
+.container1{
   display: flex;
-  justify-content: space-around;
+  gap: 10px;
+  background-color: #ddd;
+  padding: 15px;
 }
 
-.item3 {
-  flex-grow: 1;
-  padding: 20px;
-  text-align: center;
-  background: lightgray;
-  margin: 5px;
-  cursor: pointer;
-}
-
-.destaque {
-  flex-grow: 2;
-  background: orange;
-}
-
-.item3:active {
-  background: red;
+.container1 .item{
+  background-color: steelblue;
   color: white;
+  padding: 20px;
 }
 
-.container4 {
+
+.container2{
+  display: flex;
+  gap: 10px;
+  background-color: #ddd;
+  padding: 15px;
+}
+
+.container2 .item{
+  flex-grow: 1;
+  padding: 25px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.container2 .item1{
+  background-color: red;
+}
+
+.container2 .item2{
+  background-color: blue;
+}
+
+.container2 .item3{
+  background-color: green;
+}
+
+.container2 .item:hover{
+  border-bottom: 5px solid black;
+}
+
+
+
+.container3{
+  display: flex;
+  gap: 10px;
+  background-color: #ddd;
+  padding: 15px;
+}
+
+.container3 .item{
+  flex-grow: 1;
+  padding: 25px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.container3 .item1{
+  background-color: #1abc9c;
+}
+
+.container3 .item2{
+  background-color: #3498db;
+}
+
+.container3 .destaque{
+  flex-grow: 2;
+  background-color: #9b59b6;
+}
+
+.container3 .item4{
+  background-color: #e67e22;
+}
+
+.container3 .item5{
+  background-color: #e74c3c;
+}
+
+.container3 .item:active{
+  background-color: black;
+}
+
+
+.container4{
   display: flex;
   justify-content: flex-end;
-  background: lightgray;
-  padding: 10px;
-
+  gap: 10px;
+  background-color: #ddd;
+  padding: 15px;
 }
 
-.box {
-  background: steelblue;
+.container4 .item{
+  background-color: crimson;
   color: white;
-  padding: 15px;
-  margin: 5px;
+  padding: 20px;
 }
