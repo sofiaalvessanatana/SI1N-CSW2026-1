@@ -1,0 +1,9 @@
+header {
+  display: flex;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 26px;
+  padding:50px;
+  margin: 0px;
+  gap: 26px;
+    background: linear-gradient(to right, purple, rgb(102, 185, 6));
+}
