@@ -1,0 +1,19 @@
+function calculaIdade ()
+{ 
+    let anoNascimento = document.getElementById("anoNascimento").value;
+    let idade = 0;
+    let anoAtual = new Date().getFullYear();
+
+
+    idade = anoAtual - anoNascimento
+
+    if (anoNascimento == 0 ) {
+        alert ("Digite um ano válido")
+        return
+    }
+
+
+
+    document.getElementById("resultado").innerHTML ="sua idade é :" + idade
+}
+           
