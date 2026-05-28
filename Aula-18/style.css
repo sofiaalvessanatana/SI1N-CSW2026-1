@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+.card {
+  width: 380px;
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+  background-image: url(../Aula-18/imagens/bebe.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  color: white;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  width: 90px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 14px;
+  background-color: white;
+  color: #333;
+}
+
+input:focus {
+  outline: 2px solid #ffffff;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  color: #2575fc;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #e6e6e6;
+}
+
+#resultado {
+  margin-top: 18px;
+  font-size: 20px;
+  font-weight: bold;
+}
